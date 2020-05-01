@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Barcode Scanner
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Scanner</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-button (click)="Encode()">Encode</ion-button>
+
+  <ion-button (click)="Scan()">Scan</ion-button>
+</ion-content>
